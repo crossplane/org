@@ -1,0 +1,311 @@
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
+  name: crossplane-bassam
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 1463491
+    user: bassam
+    organization: crossplane
+    role: admin
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
+  name: crossplane-chrisupbound
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 45638242
+    user: Chrisupbound
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
+  name: crossplane-connorchan
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 8014678
+    user: connorchan
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
+  name: crossplane-davetorbeck
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 5829885
+    user: davetorbeck
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
+  name: crossplane-defilan
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 7034124
+    user: Defilan
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
+  name: crossplane-displague
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 317653
+    user: displague
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
+  name: crossplane-gauravgahlot
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 28539256
+    user: gauravgahlot
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
+  name: crossplane-grantgumina
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 372681
+    user: grantgumina
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
+  name: crossplane-hasheddan
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 31777345
+    user: hasheddan
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
+  name: crossplane-hongchaodeng
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 920884
+    user: hongchaodeng
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
+  name: crossplane-ichekrygin
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 324803
+    user: ichekrygin
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
+  name: crossplane-infinitecompute
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 40583244
+    user: infinitecompute
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
+  name: crossplane-jbw976
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 4313439
+    user: jbw976
+    organization: crossplane
+    role: admin
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
+  name: crossplane-kasey
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 489222
+    user: kasey
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
+  name: crossplane-krishchow
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 28268846
+    user: krishchow
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
+  name: crossplane-lukeweber
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 195363
+    user: lukeweber
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
+  name: crossplane-muvaf
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 7584126
+    user: muvaf
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
+  name: crossplane-negz
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 1049349
+    user: negz
+    organization: crossplane
+    role: admin
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
+  name: crossplane-prasek
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 284840
+    user: prasek
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
+  name: crossplane-rathpc
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 5623579
+    user: rathpc
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
+  name: crossplane-suskin
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 813571
+    user: suskin
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
+  name: crossplane-thephred
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 110422
+    user: thephred
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
+  name: crossplane-turkenh
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 9900707
+    user: turkenh
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
+  name: crossplane-wonderflow
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 2173670
+    user: wonderflow
+    organization: crossplane
+    role: direct_member
