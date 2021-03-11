@@ -248,6 +248,19 @@ spec:
 apiVersion: organizations.github.crossplane.io/v1alpha1
 kind: Membership
 metadata:
+  name: crossplane-rahulgrover99
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 32982944
+    user: rahulgrover99
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
   name: crossplane-rathpc
   labels:
     org: crossplane
