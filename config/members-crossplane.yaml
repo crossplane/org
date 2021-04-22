@@ -313,6 +313,19 @@ spec:
 apiVersion: organizations.github.crossplane.io/v1alpha1
 kind: Membership
 metadata:
+  name: crossplane-ulucinar
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 9376684
+    user: ulucinar
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
   name: crossplane-wonderflow
   labels:
     org: crossplane
