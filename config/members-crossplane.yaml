@@ -1,6 +1,19 @@
 apiVersion: organizations.github.crossplane.io/v1alpha1
 kind: Membership
 metadata:
+  name: crossplane-aaronme
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 2008996
+    user: AaronME
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
   name: crossplane-bassam
   labels:
     org: crossplane
