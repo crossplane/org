@@ -27,6 +27,19 @@ spec:
 apiVersion: organizations.github.crossplane.io/v1alpha1
 kind: Membership
 metadata:
+  name: crossplane-chlunde
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 131994
+    user: chlunde
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
   name: crossplane-chrisupbound
   labels:
     org: crossplane
