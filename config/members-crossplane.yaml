@@ -105,6 +105,19 @@ spec:
 apiVersion: organizations.github.crossplane.io/v1alpha1
 kind: Membership
 metadata:
+  name: crossplane-feggah
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 11353912
+    user: Feggah
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
   name: crossplane-gauravgahlot
   labels:
     org: crossplane
