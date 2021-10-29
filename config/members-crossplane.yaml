@@ -144,6 +144,19 @@ spec:
 apiVersion: organizations.github.crossplane.io/v1alpha1
 kind: Membership
 metadata:
+  name: crossplane-haarchri
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 21083497
+    user: haarchri
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
   name: crossplane-hasheddan
   labels:
     org: crossplane
