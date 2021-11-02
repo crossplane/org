@@ -339,6 +339,19 @@ spec:
 apiVersion: organizations.github.crossplane.io/v1alpha1
 kind: Membership
 metadata:
+  name: crossplane-sergenyalcin
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 44261342
+    user: sergenyalcin
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
   name: crossplane-suskin
   labels:
     org: crossplane
