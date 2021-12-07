@@ -352,6 +352,19 @@ spec:
 apiVersion: organizations.github.crossplane.io/v1alpha1
 kind: Membership
 metadata:
+  name: crossplane-stevendborrelli
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 414702
+    user: stevendborrelli
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
   name: crossplane-suskin
   labels:
     org: crossplane
