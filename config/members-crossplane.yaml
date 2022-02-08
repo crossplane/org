@@ -287,6 +287,19 @@ spec:
 apiVersion: organizations.github.crossplane.io/v1alpha1
 kind: Membership
 metadata:
+  name: crossplane-mcbenjemaa
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 15221272
+    user: mcbenjemaa
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
   name: crossplane-muvaf
   labels:
     org: crossplane
@@ -450,6 +463,19 @@ spec:
   forProvider:
     inviteeId: 2173670
     user: wonderflow
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
+  name: crossplane-ytsarev
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 518532
+    user: ytsarev
     organization: crossplane
     role: direct_member
 ---
