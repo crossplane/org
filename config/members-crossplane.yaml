@@ -14,6 +14,19 @@ spec:
 apiVersion: organizations.github.crossplane.io/v1alpha1
 kind: Membership
 metadata:
+  name: crossplane-avalanche123
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 83289
+    user: avalanche123
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
   name: crossplane-bassam
   labels:
     org: crossplane
@@ -322,6 +335,19 @@ spec:
     user: negz
     organization: crossplane
     role: admin
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
+  name: crossplane-parul5sahoo
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 60248260
+    user: parul5sahoo
+    organization: crossplane
+    role: direct_member
 ---
 apiVersion: organizations.github.crossplane.io/v1alpha1
 kind: Membership
