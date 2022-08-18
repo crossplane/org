@@ -40,6 +40,19 @@ spec:
 apiVersion: organizations.github.crossplane.io/v1alpha1
 kind: Membership
 metadata:
+  name: crossplane-bobh66
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 4935304
+    user: bobh66
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
   name: crossplane-chlunde
   labels:
     org: crossplane
@@ -235,6 +248,19 @@ spec:
 apiVersion: organizations.github.crossplane.io/v1alpha1
 kind: Membership
 metadata:
+  name: crossplane-jastang
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 2058247
+    user: jastang
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
   name: crossplane-jbw976
   labels:
     org: crossplane
@@ -255,6 +281,19 @@ spec:
   forProvider:
     inviteeId: 489222
     user: kasey
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
+  name: crossplane-kiote
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 123637
+    user: kiote
     organization: crossplane
     role: direct_member
 ---
@@ -335,6 +374,32 @@ spec:
     user: negz
     organization: crossplane
     role: admin
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
+  name: crossplane-nlinx
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 10470860
+    user: nlinx
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
+  name: crossplane-nullable-eth
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 2248325
+    user: nullable-eth
+    organization: crossplane
+    role: direct_member
 ---
 apiVersion: organizations.github.crossplane.io/v1alpha1
 kind: Membership
