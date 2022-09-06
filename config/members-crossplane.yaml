@@ -14,6 +14,19 @@ spec:
 apiVersion: organizations.github.crossplane.io/v1alpha1
 kind: Membership
 metadata:
+  name: crossplane-AlainRoy
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 887364
+    user: AlainRoy
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
   name: crossplane-avalanche123
   labels:
     org: crossplane
@@ -131,6 +144,19 @@ spec:
 apiVersion: organizations.github.crossplane.io/v1alpha1
 kind: Membership
 metadata:
+  name: crossplane-epk
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 9075816
+    user: epk
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
   name: crossplane-ezgidemirel
   labels:
     org: crossplane
@@ -216,6 +242,19 @@ spec:
   forProvider:
     inviteeId: 920884
     user: hongchaodeng
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
+  name: crossplane-iAnomaly
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 1048405
+    user: iAnomaly
     organization: crossplane
     role: direct_member
 ---
@@ -430,6 +469,19 @@ spec:
 apiVersion: organizations.github.crossplane.io/v1alpha1
 kind: Membership
 metadata:
+  name: crossplane-Piotr1215
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 8086638
+    user: Piotr1215
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
   name: crossplane-prasek
   labels:
     org: crossplane
@@ -515,6 +567,19 @@ spec:
   forProvider:
     inviteeId: 813571
     user: suskin
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
+  name: crossplane-tanujd11
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 68149299
+    user: tanujd11
     organization: crossplane
     role: direct_member
 ---
