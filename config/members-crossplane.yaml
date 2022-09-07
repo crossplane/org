@@ -482,6 +482,19 @@ spec:
 apiVersion: organizations.github.crossplane.io/v1alpha1
 kind: Membership
 metadata:
+  name: crossplane-plumbis
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 10537576
+    user: plumbis
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
   name: crossplane-prasek
   labels:
     org: crossplane
