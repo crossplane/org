@@ -365,6 +365,19 @@ spec:
 apiVersion: organizations.github.crossplane.io/v1alpha1
 kind: Membership
 metadata:
+  name: crossplane-lsviben
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 46844730
+    user: lsviben
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
   name: crossplane-luebken
   labels:
     org: crossplane
