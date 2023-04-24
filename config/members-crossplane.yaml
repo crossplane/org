@@ -495,6 +495,19 @@ spec:
 apiVersion: organizations.github.crossplane.io/v1alpha1
 kind: Membership
 metadata:
+  name: crossplane-pedjak
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 132690
+    user: pedjak
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
   name: crossplane-phisco
   labels:
     org: crossplane
