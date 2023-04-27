@@ -144,6 +144,19 @@ spec:
 apiVersion: organizations.github.crossplane.io/v1alpha1
 kind: Membership
 metadata:
+  name: crossplane-elohmrow
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 1139586
+    user: elohmrow
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
   name: crossplane-epk
   labels:
     org: crossplane
