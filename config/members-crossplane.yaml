@@ -209,6 +209,19 @@ spec:
 apiVersion: organizations.github.crossplane.io/v1alpha1
 kind: Membership
 metadata:
+  name: crossplane-gberche-orange
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 4748380
+    user: gberche-orange
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
   name: crossplane-grantgumina
   labels:
     org: crossplane
@@ -632,6 +645,19 @@ spec:
   forProvider:
     inviteeId: 414702
     user: stevendborrelli
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
+  name: crossplane-sttts
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 730123
+    user: sttts
     organization: crossplane
     role: direct_member
 ---
