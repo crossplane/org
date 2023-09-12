@@ -118,6 +118,19 @@ spec:
 apiVersion: organizations.github.crossplane.io/v1alpha1
 kind: Membership
 metadata:
+  name: crossplane-dee0sap
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 82829708
+    user: dee0sap
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
   name: crossplane-defilan
   labels:
     org: crossplane
