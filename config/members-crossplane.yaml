@@ -651,6 +651,19 @@ spec:
 apiVersion: organizations.github.crossplane.io/v1alpha1
 kind: Membership
 metadata:
+  name: crossplane-smileisak
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 3457118
+    user: smileisak
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
   name: crossplane-stevendborrelli
   labels:
     org: crossplane
@@ -788,18 +801,5 @@ spec:
   forProvider:
     inviteeId: 2805315
     user: zzxwill
-    organization: crossplane
-    role: direct_member
----
-apiVersion: organizations.github.crossplane.io/v1alpha1
-kind: Membership
-metadata:
-  name: crossplane-smileisak
-  labels:
-    org: crossplane
-spec:
-  forProvider:
-    inviteeId: 3457118
-    user: smileisak
     organization: crossplane
     role: direct_member
