@@ -456,6 +456,19 @@ spec:
 apiVersion: organizations.github.crossplane.io/v1alpha1
 kind: Membership
 metadata:
+  name: crossplane-mergenci
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 4789916
+    user: mergenci
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
   name: crossplane-MisterMX
   labels:
     org: crossplane
