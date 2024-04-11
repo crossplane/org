@@ -14,6 +14,19 @@ spec:
 apiVersion: organizations.github.crossplane.io/v1alpha1
 kind: Membership
 metadata:
+  name: crossplane-abelhoula
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 45313572
+    user: abelhoula
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
   name: crossplane-AlainRoy
   labels:
     org: crossplane
