@@ -183,6 +183,19 @@ spec:
 apiVersion: organizations.github.crossplane.io/v1alpha1
 kind: Membership
 metadata:
+  name: crossplane-enesonus
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 94247411
+    user: enesonus
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
   name: crossplane-epk
   labels:
     org: crossplane
