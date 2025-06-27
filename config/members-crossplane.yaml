@@ -222,6 +222,19 @@ spec:
 apiVersion: organizations.github.crossplane.io/v1alpha1
 kind: Membership
 metadata:
+  name: crossplane-erhancagirici
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 105722117
+    user: erhancagirici
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
   name: crossplane-ezgidemirel
   labels:
     org: crossplane
