@@ -261,6 +261,19 @@ spec:
 apiVersion: organizations.github.crossplane.io/v1alpha1
 kind: Membership
 metadata:
+  name: crossplane-gaiters-cafes
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 119340735
+    user: gaiters-cafes
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
   name: crossplane-gauravgahlot
   labels:
     org: crossplane
