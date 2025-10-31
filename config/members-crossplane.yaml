@@ -365,6 +365,19 @@ spec:
 apiVersion: organizations.github.crossplane.io/v1alpha1
 kind: Membership
 metadata:
+  name: crossplane-iciclespider
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 81206
+    user: iciclespider
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
   name: crossplane-ichekrygin
   labels:
     org: crossplane
