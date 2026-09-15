@@ -456,6 +456,19 @@ spec:
 apiVersion: organizations.github.crossplane.io/v1alpha1
 kind: Membership
 metadata:
+  name: crossplane-jonasz-lasut
+  labels:
+    org: crossplane
+spec:
+  forProvider:
+    inviteeId: 93281932
+    user: jonasz-lasut
+    organization: crossplane
+    role: direct_member
+---
+apiVersion: organizations.github.crossplane.io/v1alpha1
+kind: Membership
+metadata:
   name: crossplane-kaessert
   labels:
     org: crossplane
